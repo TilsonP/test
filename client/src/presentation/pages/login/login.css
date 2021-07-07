@@ -1,0 +1,50 @@
+.Container_login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/casas.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form_login_container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #535353;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.Form_login_container input{
+    height: 35px;
+    display: block;
+    width: 97%;
+    background-color: #ececec;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.Form_login_container input:focus{
+    outline: none;
+}
+
+.Form_login_container button{
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 2px solid #174989;
+    background-color: #ffffff;
+    color: #174989;
+    transition: ease .5s;
+    border-radius: 20px;
+}
+
+.Form_login_container button:hover{
+    font-size: 20px;
+    background-color: #dfecff;
+}

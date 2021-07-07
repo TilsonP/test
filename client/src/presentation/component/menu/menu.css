@@ -1,0 +1,88 @@
+.menu{
+    width: 22%;
+    box-shadow: 2px 0 4px #dbdbdb;
+}
+
+.logo_container{
+    z-index: 1;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 2px 4px #dbdbdb;
+    position: sticky;
+    top: 0;
+}
+
+.fa-map-marker-alt{
+    font-size: 50px;
+    color: #174989;
+    filter: drop-shadow(1px 1px 1px #a3a3a3);
+}
+
+.name_container{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.name_container .name{
+    font-size: 45px;
+    font-weight: bold;
+    color: #174989;
+    filter: drop-shadow(1px 1px 1px #a3a3a3);
+}
+
+.menu_container li{
+    list-style: none;
+}
+
+.menu_container{
+    height: 80vh;
+    width: 100%;
+}
+
+.menu_container .menu_element{
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6D6D;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.menu_container .menu_element:hover{
+    padding-left: 15px;
+}
+
+.menu_container .menu_element i{
+    font-size: 23px;
+    width: 60px;
+    color: #174989;
+}
+
+.menu_element:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    left: 0;
+    height: 60px;
+    background-color: #eeeeee;
+    transition: .3s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.menu_element:hover:before{
+    width: 22%;
+    transition: .3s;
+    opacity: 1;
+}

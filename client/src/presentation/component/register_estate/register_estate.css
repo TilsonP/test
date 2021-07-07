@@ -1,0 +1,91 @@
+.Container_register_estate{
+    width: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6D6D6D;
+}
+
+.form_register_container{
+    height: 90%;
+    width: 80%;
+    border: 2px solid #174989;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_register_container .input_section{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form_register_container .map_section{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.form_register_container .map_section .overlays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_register_container .fa-map-pin{
+    color: #174989;
+    font-size: 20px;
+}
+
+.form_register_container button{
+    border: 2px solid #174989;
+    width: 95%;
+    height: 40px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #174989;
+    background-color: #ececec;
+    transition: ease-in-out .2s;
+}
+
+.form_register_container button:hover{
+    background-color: #174989;
+    color: #ececec;
+}
+
+.form_register_container .input_container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_register_container .input_container input{
+    height: 35px;
+    display: block;
+    width: 95%;
+    background-color: #ececec;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.form_register_container .input_container .label_input{
+    padding: 5px 10px;
+}
+
+.form_register_container .input_container input:focus{
+    outline: none;
+}
+
+.mapboxgl-map{
+    border-radius: 15px;
+}

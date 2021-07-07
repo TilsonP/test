@@ -1,0 +1,17 @@
+.container_consult_estate{
+    width: 75%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_map{
+    width: 90%;
+    height: 90%;
+}
+
+.fa-house-user{
+    font-size: 25px;
+    color: #174989;
+}

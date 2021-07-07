@@ -1,0 +1,22 @@
+{
+  "name": "suyobackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "cd client && npm install && npm run build:client"
+  },
+  "keywords": [],
+  "author": "Tilson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.7.0"
+  },
+  "devDependencies": {},
+  "description": "",
+  "engines": {
+    "node": "14.16.1"
+  }
+}
